@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project #1 Advanced Programming Topics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Augusta Tech Directory</h1>
+        <form id="userForm">
+            <input type="hidden" id="userId">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" placeholder="Enter name" required>
+            <label for="email">Student Email:</label>
+            <input type="email" id="email" placeholder="Enter email" required>
+            <button type="submit" id="submitBtn">Add Student</button>
+        </form>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
